@@ -13,19 +13,4 @@
             >;
         };
     };
-};/ {
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-                &kp ESC
-                &kp F13
-                &kp ENTER
-                &kp LEFT
-                &kp RIGHT
-                &mkp LCLK
-            >;
-        };
-    };
 };
